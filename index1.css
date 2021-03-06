@@ -96,7 +96,7 @@ iframe[name=page]{
     font-variant: small-caps;
     color: orangered;
 }
-.prod>.image{
+.prod .image{
     max-width: 98%;
     height: 150px;
     margin-bottom: 10px;
@@ -128,11 +128,30 @@ iframe[name=page]{
     position: absolute;
     top: 0px;
     right: 0px;
+    border-top-left-radius: 30px;
+    background-color: orangered;
+    box-shadow: 3px 3px 2px gray;
+    height: 30px;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
     border-bottom-left-radius: 30px;
     background-color: orangered;
     box-shadow: 3px 3px 2px gray;
     height: 30px;
     
+}
+.top-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 0 5px;
+}
+.top-right a:hover{
+    color: yellow;
+    text-shadow: 0 0 10px;
 }
 .company-info{
     position: relative;
