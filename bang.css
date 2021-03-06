@@ -14,3 +14,17 @@ tr:first-child{
 .cd{
     background-color: grey;
 }
+tr:nth-child(2){
+    background-color: green;
+    color:white;
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid blue;
+}
+table{
+    border-collapse: collapse;
+    padding-bottom: 5px;
+}
